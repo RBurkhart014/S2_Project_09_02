@@ -11,6 +11,16 @@
       Filename:   sb_payment.html
    -->
    
+
+
+
+    <!-- CLAWSON!!! IMPORTANT!!! remember there was some weird problem so you gave me all your code -->
+
+
+
+
+
+
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <title>Spice Bowl Payment Form</title>
@@ -107,6 +117,7 @@
                <option value="WI" />
                <option value="WY" />
             </datalist>
+            <!-- Added th dropdown with all these states -->
             <label for="zipBox">ZIP/Postal Code</label>
             <input name="zip" id="zipBox" type="text" pattern="^\d{5}(\-\d{4})?$" />
             <label for="countryBox">Country</label>
@@ -133,6 +144,7 @@
                   <input name="cCard" value="visa" type="radio" required />
                   <img src="sb_visa.png" alt="Visa" />
                </label>
+               <!-- Placed all the circles for which car you use -->
             </fieldset>
             <label for="cardBox">Credit Card Number</label>
             <input name="cardNumber" id="cardBox" type="text" required
@@ -161,6 +173,7 @@
                <option value="2020">2020</option>
                <option value="2021">2021</option>
             </select>
+            <!-- These are all the options for the month & year -->
             <label for="cscBox">CSC</label>
             <input name="csc" id="cscBox" type="text" pattern="^\d{3}$" maxlength="3" placeholder="nnn" required />
          </fieldset>

@@ -24,3 +24,4 @@ input:focus:valid:not([type='radio']) {
 input:focus:invalid:not([type='radio']) {
     background: rgb(255, 245, 215) url(sb_invalid.png) right no-repeat;
 }
+/* These added the checkmark & incorrect mark */
